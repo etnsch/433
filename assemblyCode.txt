@@ -1,0 +1,6 @@
+MOV 0x11
+MOV A -> %0
+SUB A, 1
+MOV A -> [0x00]
+DIV A, 0x2
+MOV A -> %1

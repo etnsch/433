@@ -1,0 +1,54 @@
+ADD A, %3
+ADD A, 3
+SUB A, %5
+SUB A, 5
+SUB %1, A
+SUB 3, A
+MUL A, %6
+MUL A, 8
+SMUL A, %3
+SMUL A, 9
+DIV A, %7
+DIV A, 5
+DIV %3, A
+DIV 4, A
+SDIV A, %7
+SDIV A, 5
+SDIV %3, A
+SDIV 4, A
+AND A, %3
+AND A, 4
+OR A, %6
+OR A, 2
+XOR A, %5
+XOR A, 5
+LSH A, %2
+LSH A, 3
+LSH %4, A
+LSH 4, A
+RSH A, %2
+RSH A, 3
+RSH %4, A
+RSH 4, A
+ASH A, %2
+ASH A, 3
+ASH %4, A
+ASH 4, A
+CMP A, %4
+CMP A, 3
+TEST A, %4
+TEST A, 12
+MOV B
+MOV F
+MOV %6
+MOV 2
+MOV [%3]
+MOV [13]
+MOV PC L -> A
+MOV PC L, PC H -> A, %4
+MOV A -> %7
+MOV %3 -> %4
+MOV A -> F
+MOV A, %2 -> PC L, PC H
+MOV A -> [%4]
+MOV A -> [32]
