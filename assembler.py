@@ -395,9 +395,9 @@ def mov(argList):
         return t3(49, argList[1], argList[3])
 
     #Legal?
-    elif(len(argList) == 4 and argList[2] == '->' and argList[3][0] == '%'):
-        print('50')
-        return t4(50, argList[1])
+    #elif(len(argList) == 4 and argList[2] == '->' and argList[3][0] == '%'):
+    #    print('50')
+    #    return t4(50, argList[1])
 
     elif (len(argList) == 4 and argList[1] == 'A' and argList[2] == '->' and argList[3][0] == 'F'):
         print('50')
